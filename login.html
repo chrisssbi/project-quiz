@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0,
+        maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+  <link rel="icon" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,400,800&display=swap" rel="stylesheet">
+
+  <title>
+    Log in |  Final Project
+  </title>
+
+  </head>
+  <body>
+    <div class="wrap">
+  <header>
+    <div class="burger">
+        <span class="burger__line1"></span>
+        <span class="burger__line2"></span>
+        <span class="burger__line3"></span>
+    </div>
+    <nav>
+      <ul class="menu">
+        
+        <li class="menu__item">
+          <a class="homelink" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="all-tests.html">
+            Все тесты
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="login.html">
+            Вход в кабинет
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+        <main class="flex-column">
+<div class="login">
+  <div class="login__wrapper">
+    <form class="login__form" name="login">
+      <h3>
+        Вход в кабинет
+      </h3>
+      <p>
+        Для доступа к результатам прошлых тестов, пожалуйста, войдите в свой
+        личный кабинет или зарегистрируйтесь.
+      </p>
+      <div class="login__form__input">
+        <input type="text" name="name" id="name" required />
+        <label for="name" id="name-l">
+          Your Name*
+        </label>
+      </div>
+      <div class="login__form__input">
+        <input type="email" name="email" id="email" required />
+        <label for="email" id="email-l">
+          Your Mail*
+        </label>
+        <div id="error1"></div>
+      </div>
+      <div class="login__form__input">
+        <input type="text" name="msg" id="msg" />
+        <label for="msg" id="msg-l">
+          Your Message*
+        </label>
+      </div>
+      <input class="btn" type="submit" name="login" value="Submit →" formnovalidate/>
+    </form>
+    <div id="done"></div>
+    <div id="error"></div>
+  </div>
+</div>
+
+        </main>
+<footer class="center">
+  <div class="social margins-x">
+    <a href="https://www.facebook.com/" target="_blank" title="facebook">
+      <i class="social__icon social__icon__facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" title="instagram">
+      <i class="social__icon social__icon__instagram"></i>
+    </a>
+    <a href="https://www.pinterest.com/" target="_blank" title="pinterest">
+      <i class="social__icon social__icon__pinterest"></i>
+    </a>
+  </div>
+  <p class="copyright">
+    (c) 2020 Chris B. all rights reserved
+  </p>
+</footer>
+
+    </div>
+    <script src="js/navigation.js"></script>
+  </body>
+</html>
