@@ -1,6 +1,6 @@
 'use strict';
 
-const requestURL = 'https://api.myjson.com/bins/lspqo'; // создаем ссылку на нужный файл JSON
+const requestURL = 'https://api.jsonbin.io/b/602bd1600665b21b00b81b1b'; // создаем ссылку на нужный файл JSON
 
 let getJSON = function(url, ...callback) { // асинхронный запрос XMLHttpRequest
    const xhr = new XMLHttpRequest(); // создаем новый объект запроса
